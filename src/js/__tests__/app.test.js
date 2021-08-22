@@ -27,5 +27,5 @@ test('toBe', () => {
     { name: 'мечник', health: 10 },
   ];
   const result = healthSort(heroes);
-  expect(result).toBe(expected);
+  expect(result).not.toBe(expected);
 });
